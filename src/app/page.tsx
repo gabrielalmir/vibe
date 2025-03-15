@@ -40,7 +40,7 @@ export default function Home() {
                     <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
-                <Link href="https://github.com/gabrielalmir" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/gabrielalmir/vibe" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="gap-1">
                     <Github className="h-4 w-4" />
                     GitHub
