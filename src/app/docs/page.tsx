@@ -237,12 +237,16 @@ export default function DocsPage() {
                     You can also configure Vibe tools using environment variables:
                   </p>
                   <div className="rounded-md bg-muted p-4">
-                    <code className="text-sm font-mono whitespace-pre-wrap">
-                      # Vibe Glow environment variables export VIBE_GLOW_PORT=8080 export VIBE_GLOW_STORAGE_TYPE=sqlite
-                      export VIBE_GLOW_STORAGE_PATH=./logs.db export VIBE_GLOW_LOG_LEVEL=info # Vibe Hush environment
-                      variables export VIBE_HUSH_PORT=8081 export VIBE_HUSH_STORAGE_TYPE=sqlite export
-                      VIBE_HUSH_STORAGE_PATH=./cache.db export VIBE_HUSH_DEFAULT_TTL=3600
-                    </code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block"># Vibe Glow environment variables</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_GLOW_PORT=8080</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_GLOW_STORAGE_TYPE=sqlite</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_GLOW_STORAGE_PATH=./logs.db</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_GLOW_LOG_LEVEL=info</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block"># Vibe Hush environment variables</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_HUSH_PORT=8081</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_HUSH_STORAGE_TYPE=sqlite</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_HUSH_STORAGE_PATH=./cache.db</code>
+                    <code className="text-sm font-mono whitespace-pre-wrap block">export VIBE_HUSH_DEFAULT_TTL=3600</code>
                   </div>
                 </div>
               </div>
