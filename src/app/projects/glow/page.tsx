@@ -157,7 +157,7 @@ export default function GlowPage() {
               View Documentation
             </Button>
           </Link>
-          <Link href="https://github.com/gabrielalmir/glow" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/gabrielalmir/vibe-glow" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="gap-1">
               <Github className="h-4 w-4" />
               View Source
